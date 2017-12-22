@@ -100,7 +100,7 @@ unit_test <- function(test_no, seed_val) {
     obj$set(mtx) # Update the object (this should reset the cache)
     mtx <- cacheSolve(obj) # Get the inverse again (this should be calculated back to the original)
   } else {
-    print("unit_test(1..6, seed_value)")
+    print("unit_test(1..7, seed_value)")
     
     mtx <- NULL
   }
